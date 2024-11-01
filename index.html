@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Paint</title>\
+    <title>Paint</title>
+    <link rel="stylesheet" href="style.css" />
     <!-- daisyUI + tailwind css-->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
@@ -12,9 +13,92 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
 
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <h1>Paint</h1>
+    <header class="bg-[#FEEDBC] py-14">
+      <div class="w-[90%] max-w-11/12 mx-auto">
+        <div class="flex md:justify-center bg-white rounded-full p-3 lg:p-4">
+          <img
+            class="border border-dashed w-20 max-w-24"
+            src="assets/paint-logo.png"
+            alt="Paint"
+          />
+        </div>
+        <div class="flex flex-col md:flex-row-reverse md:items-center justify-between gap-16">
+          <div>
+            <img class="" src="assets/cover-paint.png" alt="" />
+          </div>
+          <div>
+            <p class="uppercase font-bold text-base text-[#F9B800] md:text-3xl">
+              risus praesent vulputate.
+            </p>
+            <h1 class="font-bold text-3xl md:text-5xl lg:text-7xl">
+              Cursus Integer
+            </h1>
+            <h1
+              class="font-bold text-3xl md:text-5xl lg:text-7xl border-r-4 border-r-black"
+            >
+              Consequat Tristique.
+            </h1>
+            <div class="mx-0 my-4">
+              <div class="md:flex md:flex-wrap gap-4">
+                <div>
+                    <div
+                      class="rounded-full p-2 bg-white font-semibold md:text-xl mb-3 inline-block"
+                    >
+                      <i
+                        class="fa-regular fa-circle-check mr-2 text-[#F9B800] inline"
+                      ></i>
+                      <p class="inline">Cursor Integer</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      class="rounded-full p-2 bg-white font-semibold md:text-xl mb-3 inline-block"
+                    >
+                      <i
+                        class="fa-regular fa-circle-check mr-2 text-[#F9B800] inline"
+                      ></i>
+                      <p class="inline">Integer Consequat</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="md:flex md:flex-wrap gap-4">
+                <div>
+                    <div
+                    class="rounded-full p-2 bg-white font-semibold md:text-xl mb-3 inline-block"
+                    >
+                      <i class="fa-regular fa-circle-check mr-2 text-[#F9B800] inline"></i>
+                      <p class="inline">Tellus Euismod Pellentesque</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                    class="rounded-full p-2 bg-white font-semibold md:text-xl mb-3 inline-block"
+                    >
+                      <i class="fa-regular fa-circle-check mr-2 text-[#F9B800] inline"></i>
+                      <p class="inline">Alliqout Tristique</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div>
+              <button
+                class="bg-[#F9B800] md:text-xl lg:text-2xl font-bold flex items-center gap-4 p-2 md:p-4 rounded-full"
+              >
+                Lorem Ipsum <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
